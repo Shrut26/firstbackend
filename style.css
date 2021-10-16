@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('place3.png') center center/cover;
+    opacity: 0.7;
+}
+
+.container{
+    max-width: 80%;
+    
+    padding: 34 px;
+    margin: auto;
+    align-items: center;
+}
+
+.container h3{
+    text-align: center;
+    padding: 17px;
+}
+
+.container p{
+    text-align: center;
+    padding: 17px;
+}
+
+input{
+    width: 80%;
+    margin:15px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid red ;
+    border-radius: 10px;
+    outline: none;
+}
+textarea{
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+    outline: none;
+}
+
+form{
+    text-align: center;
+}
+
+#sub{
+    font-family: cursive;
+    color: green;
+    font-size: 20px;
+}
+.btn{
+    padding: 2px;
+    margin: 2px;
+    background-color: rosybrown;
+    font-size: 30px;
+    border: 2px solid firebrick;
+    border-radius: 6px;
+}

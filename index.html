@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcomoe to Travel plan </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h3>Welcome to IIT JODHPUR US TRIP FORM</h3>
+        <p>Enter your details for your participation in your trip and submit this form</p>
+        <p id="sub">Thanks for submitting your form</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="text" age="age" placeholder="Enter your age">
+            <input type="text" roll="roll_no" placeholder="Enter your Roll No.">
+            <input type="text" gender="gender" placeholder="Enter your gender.">
+            <input type="email" Email="Email" placeholder="Enter your Email.">
+            <input type="phone" phone="phone" placeholder="Enter your phone number.">
+
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter the other info here"></textarea>
+            <br>
+            <button class="btn">Submit</button>
+
+        </form>
+
+
+    </div>
+
+    <script src="index.js">
+
+    </script>
+    <!--INSERT INTO `trip` (`S.no`, `name`, `age`, `Email`, `gender`, `others`, `dt`, `roll no.`, `phone`) VALUES ('1',
+    'Shrutayu Aggarwal', '18', 'aggarwal.4@iitj.ac.in', 'male', 'good to have you here', '2021-10-16 22:13:43', '096',
+    '1548747045');-->
+</body>
+
+</html>
