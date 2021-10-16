@@ -1,5 +1,5 @@
 <?php
-   $submit =true; 
+   $submit =false; 
 if(isset($_POST['name'])){
 
    $server = "localhost";
