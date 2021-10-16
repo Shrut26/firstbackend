@@ -62,7 +62,7 @@ if(isset($_POST['name'])){
         }
 
         ?>
-        <form action="index.php" method="post">
+        <form action="/firstbackend/index.php" method="post">
             <input type="text" name="name" placeholder="Enter your name">
             <input type="text" name="age" placeholder="Enter your age">
             <input type="text" name="roll" placeholder="Enter your Roll No.">
